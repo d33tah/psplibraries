@@ -90,7 +90,7 @@ function get_pspports {
     else
         # clone psp-ports
 
-        git clone "https://github.com/pspdev/psp-ports.git" psp-ports
+        git clone "https://github.com/d33tah/psp-ports.git" psp-ports
         cd psp-ports/$1 || { return 1; } 
     fi
 }
